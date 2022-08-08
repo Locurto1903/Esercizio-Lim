@@ -1,0 +1,99 @@
+/* sfondo */
+body{
+  background-image: url("background.jpg");
+  background-size: cover;
+}
+
+/* box */
+#box-trasparente{
+  width: 1100px;
+  height: 800px;
+  background-color: rgba(0, 0, 0, 0.5);
+  margin: auto;
+  border-radius: 2%
+}
+
+/* Con questo attributo sono riuscito a mantenere il bordo dentro parametri definiti:(Non avevo più il controllo del layout preced) */
+*{
+  box-sizing: border-box;
+}
+
+/* Titolo e logo */
+.conteiner{
+  text-align: center;
+  margin-top: 20px;
+  padding-top: 70px;
+}
+
+/* Titolo */
+#titolo{
+  color: #00ff00;
+  margin-bottom: 0;
+  /* Il carattere del titolo è diverso ma preferisco non cambiarlo */
+}
+
+/* "Lo spazio tra il logo Lim ed il titolo non sono riuscito a ridurlo" */
+
+/* Contenitore Input */
+.quadrato{
+  background-color: #00ff00;
+  padding:10px;
+  margin: auto;
+  width: 850px;
+}
+
+.Bordo{
+  border-color: black;
+  text-align: center;
+  border-radius:8%;
+}
+
+/* Pararafo 1 */
+.paragrafo-1 {
+ margin-left: 125px;
+ color: white;
+}
+
+.giallo{
+  width: 280px;
+  height: 30px;
+  border-radius: 5px;
+  background-color: #ffb340;
+}
+
+#Via{
+  font-size: 18px;
+}
+
+.Stato{
+  font-size: 20px;
+}
+
+/* Pararafo 2 */
+.paragrafo-2 {
+ margin-left: 125px;
+ color: white;
+}
+
+.verde{
+  width: 500px;
+  height: 30px;
+  border-radius: 5px;
+  background-color: #00ff00;
+}
+
+/* Pararafo 3 */
+.paragrafo-3 {
+ margin-left: 125px;
+ color: white;
+}
+
+.red{
+  width: 150px;
+  height: 30px;
+  border-radius: 5px;
+  background-color: #ec5353;
+}
+
+/* PS: */
+/* Grazie della visione. Non sono riuscito a ridurre la distanza tra i vari titoli dei paragrafi ed il loro contenuto */
